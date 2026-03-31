@@ -1,12 +1,14 @@
 {
   "name": "tg-auth-bot",
   "version": "1.0.0",
-  "description": "Telegram Auth API for Website Login",
+  "description": "Telegram Auth API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "telegram": "^2.22.2",
     "express": "^4.18.2",
